@@ -1,5 +1,5 @@
 /*content3*/
-	#c3_title{
+	.c3_title{
 		width: 1209px;
 		height: 35px;
 		border-bottom: 1px solid #c81623;
@@ -11,13 +11,13 @@
 		border: 1px solid #ededed;
 	}
 
-	.c3_Advertisement{
+	#c3_Advertisement{
 		width: 1210px;
 		padding-top: 25px;
 		height: 60px;
 	}
 
-	#c3_title_1,#c3_title_2,#c3_title_3 li{
+	.c3_title_1,.c3_title_2,.c3_title_3 li{
 		float: left;
 	}
 
@@ -26,13 +26,13 @@
 	}
 
 	/*c3_title*/
-		#c3_title_1,#c3_title_2{
+		.c3_title_1,.c3_title_2{
 			height: 25px;	
 			font-family: 'microsoft yahei'; 
 			padding-left: 3px;	
 		}
 
-		#c3_title_1{
+		.c3_title_1{
 			width: 31px;
 			background: url(../images/c3_title_bg.gif) no-repeat;
 			color: white;
@@ -40,17 +40,17 @@
 			line-height: 30px;
 		}
 
-		#c3_title_2{
+		.c3_title_2{
 			display: inline;
 			font-size: 20px;
 		}
 
-		#c3_title_3{
+		.c3_title_3{
 			float: right;
 			height: 36px;
 		}
 
-		#c3_title_3 a{
+		.c3_title_3 a{
 			padding: 0 10px;
 			cursor: pointer;	
 			font-size: 12px;
