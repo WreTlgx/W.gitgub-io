@@ -5,14 +5,14 @@
 		width:100%;
 		height: 100%;
 		color: #666;
+		background-color: white;
 	}
 
 	#layout0{
 		position: absolute;
 		margin: 0 auto;
 		width: 100%;
-		height: 100%;
-		background-color: lightpink;
+		height: 100%;	/*background-color: lightpink;*/
 	}
 
 	#layout1,#layout2,#layout3{
@@ -23,8 +23,7 @@
 	#layout1{
 		height: 176px;
 		background-image: url(../images/l1_bg.gif);
-		background-repeat: repeat-x;
-		background-color: white;
+		background-repeat: repeat-x;	/*background-color: white;*/
 		border-bottom: 2px solid #b2191b;
 	}
 
@@ -34,12 +33,12 @@
 	}
 
 	#layout2{
-		background-color: #00ffff;
+		/*background-color: #00ffff;*/
 	}
 
 	#layout2_1{
 		width: 95%;
-		background-color: lightgreen;
+		background-color: white;
 	}
 
 
